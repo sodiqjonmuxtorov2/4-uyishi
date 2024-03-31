@@ -1,0 +1,12 @@
+@mixin text($color: #fff) {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 187%;
+    color: $color;
+  
+    @media (min-width: 768px) {
+      font-size: 22px;
+      line-height: 187%;
+    }
+  }
+  
