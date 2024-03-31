@@ -294,4 +294,33 @@ img {
     position: absolute;
     top: -54px;
   }
+}
+.box::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url(../../img/box_icon.svg);
+  background-position: top left;
+}
+
+.box_title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 187%;
+  color: #fff;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 100%;
+  text-align: center;
+}
+@media (min-width: 1440px) {
+  .box_title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+  }
+}
+
+.box_sp {
+  color: aqua;
 }/*# sourceMappingURL=main.css.map */

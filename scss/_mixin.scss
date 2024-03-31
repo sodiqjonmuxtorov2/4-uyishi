@@ -4,9 +4,12 @@
     line-height: 187%;
     color: $color;
   
-    @media (min-width: 768px) {
-      font-size: 22px;
-      line-height: 187%;
+    @media (min-width: 1440px) {
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 100%;
+      text-align: center;
     }
+
   }
   

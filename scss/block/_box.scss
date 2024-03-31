@@ -1,0 +1,16 @@
+.box::before{
+ content: "";
+ background-repeat: no-repeat;
+ background-image: url(../../img/box_icon.svg);
+ background-position: top left;
+}
+.box_title {
+    @include text(#fff);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    text-align: center;
+}
+.box_sp{
+    color: aqua;
+}
