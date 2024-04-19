@@ -1,0 +1,30 @@
+.footer{
+    background-color: #002529;
+    padding: 60px;
+
+}
+.footer__text{
+    font-weight: 600;
+font-size: 18px;
+line-height: 156%;
+color: #fff;
+}
+.footer_connect1{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.footer_block{
+    display: flex;
+    gap: 125px;
+}
+.footer_list{
+    display: flex;
+    gap: 14px;
+}
+.footer_item{
+    margin-top: 35px;
+}
+.footer_block_connect{
+    margin-left: 300px;
+}
